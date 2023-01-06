@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  display: flex;
+  justify-content: center; 
+  margin:0;
+  font-family: 'Poppins';
+  background: linear-gradient(135deg, #d7e0e6, #948f99);
+  width: 100%;
+  height: 1vmax;
+} 
+  
+   
+main{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+#frame{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+#form{
+  font-family: 'Poppins';
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+}
+
+#form label{
+  font-family: 'Poppins';
+  margin: 10px;
+  height: 23px;
+}
+
+#titulo, #dni{
+  font-family: 'Poppins';
+  border-radius: 15px;
+  margin-right: 5px;
+  padding-left: 7px;
+}
+
+#formulario {
+  border: none;
+  bottom: 100px;
+  left: 32%;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  justify-content: space-between;
+}
+
+#alquilar {
+  margin-bottom: -100px;
+  width: 400px;
+  height: 35px;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 160px;
+  right: 37%;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+#alquilar:hover{
+  background: rgba(48, 47, 47, 0.7);
+  transition: all 0.2s ease-in-out 0s;
+  color: rgb(238, 229, 229);
+  cursor: pointer;
+}
+
+img{
+  margin: 0 30px;
+  border:#717171;
+  border-radius: 5px;
+  box-shadow: 6px 7px 15px 0px rgba(61,61,61,0.8);
+  animation-name: ampliar;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+div{
+  margin-top: 40px;
+}
+
+.oculto{
+  display: none;
+}
+
+.img_eleccion{
+  border:#717171;
+  border-radius: 5px;
+  box-shadow: 6px 7px 15px 0px rgba(61,61,61,0.8);
+  -webkit-box-shadow: 6px 7px 15px 0px rgba(61,61,61,0.8);
+  -moz-box-shadow: 6px 7px 15px 0px rgba(61,61,61,0.8);
+  animation-name: ampliar;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.libro {
+  position: relative;
+}
+
+#msg{
+  position: absolute;
+  border-radius: 15px;
+  bottom: 15px;
+  color:rgb(5, 23, 17);
+  font-weight: bold;
+  left: 61px;
+  background-color: rgb(243, 247, 248);
+  padding: 7px;
+  padding-left: 9px;
+  width: 103px;
+  z-index: 11;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 15px;
+  left: 25%;
+  width: 50%;
+  height: 51px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50px;
+  z-index: 10;
+}
+  
+nav ul{
+  list-style: none; 
+  float: center; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li button{
+  /* line-height: 70px; ERA ESTA MIERDAAAAAAAAA  */
+  height: 47px;
+  color: #ffff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  overflow-y: hidden;
+  background: none;
+  border: none;
+  top: 30px;
+
+} 
+  
+nav ul li button:hover{
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.2s ease-in-out 0s;
+  border-radius: 6px;
+  height: 47px;
+  padding: 12px 30px;
+
+}
+
+nav ul li button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#p_msg{
+  border-radius: 15px;
+  bottom: 15px;
+  color:rgb(5, 23, 17);
+  left: 61px;
+  background-color: rgb(243, 247, 248);
+  padding: 7px;
+  padding-left: 9px;
+  width: 225px;
+  z-index: 11;
+  transition: all 0.2s ease-in-out 0s;
+
+}
+
+#dnis{
+  background-color: ivory;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  font-size: 15px;
+  height: 30px;
+  width: 220px;
+
+}
+
+
+footer{
+  width: 100%;
+  height: 6%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  bottom: 0px;
+  left: 0px;
+  background:rgba(0, 0, 0, 0.7);
+  align-items: center;
+  color:burlywood;
+  padding-left: 15px;
+  opacity: 0.8;
+}
+
+footer p{
+  margin-right: 10px;
+}
+
+footer p:before {
+  content: '· ';
+}
