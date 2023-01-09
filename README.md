@@ -10,4 +10,12 @@
   > Para visualizar esta aplicación necesitaremos una pila LAMP, WAMP o XAMP y así poder ejecutar la aplicación en LocalHost, en el siguiente link puede comprobar como instalar un entorno servidor en su ordenador. 
   > 
   > [https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04-es]
-  > 
+  
++ Temporizador JS
+
+  >Página web de un contador básico con JS
+  
++ Pueblos de Murcia
+
+  >Página web hecha para la práctica de css e integración de JS para la simulación de una página del estilo de Pinterest
+  
